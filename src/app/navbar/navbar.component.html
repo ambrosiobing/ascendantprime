@@ -1,0 +1,43 @@
+
+
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" role="navigation">
+    <a class="navbar-brand"  [href]="['#']" >&nbsp;</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDiv" aria-expanded="false" aria-label="Toggle navigation" style="">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+        <nav class="collapse navbar-collapse" style="background-color: #212121!important;" id="navbarDiv">
+         <div class="top-nav-cont">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link"  id="menutxt" data-toggle="collapse" data-target=".navbar-collapse" routerLinkActive="active" [href]="['#home']">Home<span class="sr-only"  >(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link"  id="menutxt" data-toggle="collapse" data-target=".navbar-collapse" routerLinkActive="active" [href]="['#whatisAP']">Ascendant Prime</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menutxt" data-toggle="collapse" data-target=".navbar-collapse" routerLinkActive="active" [routerLink]="['./assets/pdf/Ascendant_Prime_One_Pager.pdf']" target="_blank">One Pager</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menutxt" data-toggle="collapse" data-target=".navbar-collapse" routerLinkActive="active" [routerLink]="['./assets/pdf/Satoshi_White_Paper_EN.pdf']" target="_blank">White Paper</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" id="menutxt" data-toggle="collapse" data-target=".navbar-collapse">The Exhibition</a>
+                </li>          
+                <li class="nav-item ">                     
+                    <a  class="nav-link" 
+                        id="menutxt" 
+                        data-toggle="collapse" 
+                        data-target=".navbar-collapse"  style="cursor: pointer;">
+                        <div mat-button (click)="openDialog()">Contact Us</div>
+                    </a>
+                </li>      
+            </ul>
+            </div>
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </nav>
+</nav>

@@ -1,0 +1,268 @@
+.container {
+    z-index: -10;
+}
+
+#socmedlinks {
+    font-size: 120%;    
+}
+
+#foottxt:hover {
+    color: rgb(211, 103, 47);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#imgdiscord {
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.3;
+    width: 32px;
+}
+
+#imgfacebook {
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.3;
+    width: 32px;
+}
+
+#imginstagram {
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.3;
+    width: 32px;
+}
+
+#imgmailto {
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.3;
+    width: 32px;
+}
+
+#imgmedium {
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.3;
+    width: 32px;
+}
+
+#imgreddit {
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.3;
+    width: 32px;
+}
+
+#imgslack {
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.3;
+    width: 32px;
+}
+
+#imgtelegram {
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.3;
+    width: 32px;
+}
+
+#imgtwitter {
+    margin-left: 1%;
+    margin-right: 1%;
+    opacity: 0.3;
+    width: 32px;
+}
+
+#imgyoutube {
+    margin-left: 1%;
+    margin-right: 1%;
+    opacity: 0.3;
+    width: 32px;
+}
+
+#imgdiscord:hover {
+    opacity: 1;
+}
+
+#imgfacebook:hover {
+    opacity: 1;
+}
+
+#imginstagram:hover {
+    opacity: 1;
+}
+
+#imgmailto:hover {
+    opacity: 1;
+}
+
+#imgmedium:hover {
+    opacity: 1;
+}
+
+#imgreddit:hover {
+    opacity: 1;
+}
+
+#imgslack:hover {
+    opacity: 1;
+}
+
+#imgtelegram:hover {
+    opacity: 1;
+}
+
+#imgtwitter:hover {
+    opacity: 1;
+}
+
+#imgyoutube:hover {
+    opacity: 1;
+}
+  li {
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin: -3px 0;
+}
+li:before {
+    content:''; 
+    display:inline-block; 
+    height:0.5em; width:0.5em; 
+    background-image:url("/assets/ul/ring.png"); 
+    background-size:contain; 
+    background-repeat:no-repeat;
+}
+
+.row .col-sm-12 .socmedlinks {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+	width: auto;
+}
+
+.row .col-sm-12 .socmedlinks a img {
+    float: left;
+  }
+
+
+nav.navbar {
+    background: #212121!important;
+    background-color: #212121!important;
+    margin-bottom: -10%;
+    z-index: 1;
+}
+
+#poweredby {
+    font-size: 10px;
+}
+
+#gravcodes{
+    color: #4d4d4d;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+#gravcodes:hover{
+    color: rgb(40, 142, 182);
+    cursor: pointer;
+}
+
+#foottxt{
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+@media only screen and (max-width: 600px) {
+    li {
+        list-style: none;
+        font-size: 10px;
+        cursor: pointer;
+        margin: -3px 0;
+    }
+    li:before {
+        height:0.2em; width:0.2em; 
+    }
+    #imgdiscord {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 16px;
+    }
+    
+    #imgfacebook {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 16px;
+    }
+    
+    #imginstagram {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 16px;
+    }
+    
+    #imgmailto {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 16px;
+    }
+    
+    #imgmedium {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 16px;
+    }
+    
+    #imgreddit {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 16px;
+    }
+    
+    #imgslack {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 16px;
+    }
+    
+    #imgtelegram {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 16px;
+    }
+    
+    #imgtwitter {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 16px;
+    }
+    
+    #imgyoutube {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 16px;
+    }
+    #foottxt{
+        font-size: 8px;
+    }
+
+    #poweredby {
+        font-size: 5px;
+    }
+    
+    #gravcodes{
+        font-size: 5px;
+    }
+}

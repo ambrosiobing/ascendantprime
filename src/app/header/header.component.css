@@ -1,0 +1,159 @@
+
+.container {
+    z-index: -10;
+}
+.row-cont {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.row-l-col {
+    width: 10%;
+    max-width: 80px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto
+}
+
+
+#ap {
+  position:relative;
+  width: 240px;
+  float:left;
+}
+
+#ap img {
+  position:absolute;
+  left:0;
+  width: 240px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#ap img.top:hover {
+  opacity:0;
+  cursor: pointer;
+}
+
+
+#h1txtA {
+    color: rgb(211, 103, 47);
+    font-family: ExanRegular;
+    font-size: 420%; /*220%*/
+    margin-top: 30px;
+}
+
+#h1txtP {
+    color: rgb(211, 103, 47);
+    font-family: ExanRegular;
+    font-size: 420%; /*220%*/
+    margin-top: -10px;
+    margin-bottom: 10px;
+	
+}
+
+#wheretxt {
+    color: #4d4d4d;
+    font-size: 200%;
+    transform: translateY(10px);
+    text-align:left; margin-left:6.80em
+}
+
+#candotxt {
+   background: transparent;
+    color: #4d4d4d;
+    font-size: 180%;
+    margin-bottom: -10px;
+}
+
+li{
+    margin: 20px 0;
+  }
+
+  li {
+    list-style: none;
+    font-size: 20px;
+}
+
+li:before {
+    content:''; 
+    display:inline-block; 
+    height:0.6em; width:0.6em; 
+    background-image:url("/assets/ul/ring3.png"); 
+    background-size:contain; 
+    background-repeat:no-repeat;
+}
+
+#h4atxt {
+	margin-left: 15px;
+	color: #4d4d4d;
+    font-size: 220%;
+    font-family: JuraMedium;
+}
+#h4btxt {
+	margin-left: 15px;
+	color: #4d4d4d;
+    font-size: 260%;
+    font-family: JuraMedium;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    #ap img{
+    top:20px;
+    width: 120px;
+    padding-left: 20px;
+  }
+
+  #h1txtA {
+    font-size: 210%; /*220%*/
+}
+
+#h1txtP {
+    font-size: 210%; /*220%*/
+	
+}
+
+#wheretxt {
+    font-size: 100%;
+    transform: translateY(5px);
+    text-align:left; margin-left:1.80em
+}
+
+#candotxt {
+     font-size: 90%;
+ }
+ #h4txt {
+	font-size: 90%;
+}
+}
+
+#humanoid img {
+    position:absolute;
+    margin-left:auto;
+    margin-right:auto;
+    width: 1040px;
+}
+.humanoid-container {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    margin-bottom: 670px;
+    width: 1040px;
+}
+
+@media only screen and (max-width: 600px) {
+    #humanoid img {
+        width: 260px;
+    }
+    .humanoid-container {
+        margin-top: -40px;
+        margin-bottom: 80px;
+        width: 260px;
+    }
+}
